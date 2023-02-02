@@ -1,0 +1,11 @@
+.form-data {
+  background: #d61355;
+  padding: 40px;
+  box-shadow: 20px 20px 20px -15px black;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+label {
+  color: white;
+}

@@ -1,0 +1,70 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Exam</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-bg-primary rounded p-1 my-3 text-center">
+        Employe Salary Sheet
+      </h1>
+      <table class="table table-bordered table-hover">
+        <thead>
+          <tr class="text-bg-dark">
+            <th>Sl.</th>
+            <th>Employe_Id</th>
+            <th>Employe_Name</th>
+            <th>Department_Name</th>
+            <th>Salary</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr id="one">
+            <td>1</td>
+            <td>1001</td>
+            <td>John Denver</td>
+            <td>Finanace</td>
+            <td>102000</td>
+          </tr>
+          <tr id="two">
+            <td>2</td>
+            <td>1002</td>
+            <td>Ketty Arnold</td>
+            <td>ICT</td>
+            <td>200000</td>
+          </tr>
+          <tr id="three">
+            <td>3</td>
+            <td>1003</td>
+            <td>Harvard Austin</td>
+            <td>ICT</td>
+            <td>50000</td>
+          </tr>
+          <tr id="four">
+            <td>4</td>
+            <td>1005</td>
+            <td>Mason Tornado</td>
+            <td>ICT</td>
+            <td>60000</td>
+          </tr>
+          <tr id="five">
+            <td>5</td>
+            <td>1006</td>
+            <td>Hue Jackson</td>
+            <td>Media Studies</td>
+            <td>300000</td>
+          </tr>
+        </tbody>
+      </table>
+      <button type="button" class="btn btn-primary" onclick="lessSalary()">
+        Less than 200000
+      </button>
+    </div>
+
+    <script src="./main.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>
